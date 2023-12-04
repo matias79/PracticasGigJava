@@ -1,4 +1,7 @@
+package models;
+
 public class Persona {
+    //todo esta persona deve implementar la clase PersonActions
     private String Nombre;
     private String apellido;
     private String telefono;
@@ -39,7 +42,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return "models.Persona{" +
                 "Nombre='" + Nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
                 ", telefono='" + telefono + '\'' +
